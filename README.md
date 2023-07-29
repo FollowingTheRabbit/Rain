@@ -1,2 +1,2 @@
 # rain
-calibration of mechanical rain sensor
+Calibration of mechanical rain sensor
