@@ -1,10 +1,5 @@
 # Rain
 Calibration of mechanical rain sensor
 
-
-testing 
-here I still testing the git
-
-the last test
-
-now pushing without 'commit'
+ok now I know how to use git in the console... 
+how about from VScode?
