@@ -8,8 +8,8 @@ import plotly.graph_objects as go
 
 
 class Rain():
-    Classifier = pickle.load(open('../model/Rain_Clas.pkl', 'rb'))
-    Regressor = pickle.load(open('../model/Rain_Reg.pkl', 'rb'))
+    Classifier = pickle.load(open('./model/Rain_Clas.pkl', 'rb'))
+    Regressor = pickle.load(open('./model/Rain_Reg.pkl', 'rb'))
     def __init__(self, x):
         self.x = x.copy()
         
