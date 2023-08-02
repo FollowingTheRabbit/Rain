@@ -15,7 +15,7 @@ from Rain import *
 
 def main():
     
-    image_path = 'img/data_input.png'
+    image_path = './img/data_input.png'
     st.write('Escolha um arquivo semelhante \
         ao mostrado na imagem, para ser analizado.')
     image_formato_arquivo = Image.open(image_path)
