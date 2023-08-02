@@ -19,6 +19,6 @@ The models are saved in pickle format to be used in the deployment in the direct
 - Both models create the class *Rain.pkl* which is the model used as *calibrator*.
 
 The implemented model can be found at https://nnivqptu4cphbiiubulut7.streamlit.app/. The model can be used by giving it an input such as *data/FieldPRO/Sensor_FieldPRO.csv*.
-![alt text](img\data_input.png)
+![plot](img\data_input.png)
 
 The image stored in the *./img* directory gives some visual information to help add the correct file. It will be updated in a future update.
