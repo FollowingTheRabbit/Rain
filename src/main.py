@@ -66,7 +66,6 @@ def excel_download(data):
 
 
 if __name__ == "__main__":
-    #from ..model import Rain.pkl
     main()
 
 
