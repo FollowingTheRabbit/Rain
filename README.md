@@ -15,7 +15,7 @@ The data used to train the model is in *./data/FieldPRO Data Challenge* also wit
 
 The models are saved in pickle format to be used in the deployment in the directory *./model*
 - *Rain_Clas.pkl* the classification model distinguishes between rain and no rain.
-- Rain_Reg.pkl* the regression model predicts rainfall values.
+- *Rain_Reg.pkl* the regression model predicts rainfall values.
 - Both models create the class *Rain.pkl* which is the model used as *calibrator*.
 
 The implemented model can be found at https://nnivqptu4cphbiiubulut7.streamlit.app/. The model can be used by giving it an input such as *./data/FieldPRO/Sensor_FieldPRO.csv*.
