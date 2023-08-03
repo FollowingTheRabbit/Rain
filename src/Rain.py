@@ -17,11 +17,11 @@ class Rain():
         self.x['data'] = pd.to_datetime(self.x['Datetime – utc'], format='mixed')
         self.x['data'] = self.x.data.astype(str).str.split('+',expand=True)[0]
         self.x['dif_charge'] = self.x.groupby('num_of_resets').piezo_charge.diff(-1).shift(-2)
-   
-        self.x.dropna(inplace=True)
  
         self.x['dif_temp'] = self.x['air_temperature_100'] - self.x['piezo_temperature'].astype(float)
-        self.x['dq/dT'] = (self.x.dif_charge/self.x.dif_temp)
+        self.x['dq/dT'] = (self.x.dif_charge/self.x.dif_temp.shift(-1))
+        
+        self.x.dropna(inplace=True)
 
     def calculate(self, shft=True):
         self.x['precp'] = self.Classifier.predict(self.x[self.Classifier.feature_names_in_])
