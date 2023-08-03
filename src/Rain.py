@@ -42,7 +42,6 @@ class Rain():
 
 
 def plot_null(data):
-    """Grafico de calor dos dados fornecidos"""
     fig =  px.imshow(data.isnull(), text_auto=True)
     #fig.show()
     return fig
