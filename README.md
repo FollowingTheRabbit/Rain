@@ -1,7 +1,7 @@
 # Rain
 Calibration of a mechanical rain sensor
 
-This project is a solution to the FielPro case. It is a public repository with a free software license. You can clone and run *requirements.txt* to test it on your own computer.
+This project is a solution to the FieldPro case. It is a public repository with a free software license. You can clone and run *requirements.txt* to test it on your own computer.
 
 The codes are in the *./src directory
 - The *analyse.ipynb* is a notebook with the descriptive analysis and model building.
