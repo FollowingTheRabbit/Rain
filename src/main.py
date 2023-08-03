@@ -61,14 +61,8 @@ def read_file():
 def excel_download(data):
     escreve = io.BytesIO()
 
-    #dia = datetime.today().strftime('%Y-%m-%d') 
-    #nome_arquivo = '../data/compiled-' + str(dia) + '.xlsx'
-    #writer = pd.ExcelWriter(nome_arquivo, engine = 'xlsxwriter')
-
     writer = pd.ExcelWriter(escreve, engine='xlsxwriter')   
-    #with pd.ExcelWriter(escreve, engine='xlsxwriter') as writer
     data.to_excel(writer, index=False, header=True, sheet_name='Sensor Measurement Interpreted')
-    #data.to_excel(writer, index=False, header=True, engine='xlsxwriter')
     writer.close()
     dado_processado = escreve
     return  dado_processado
