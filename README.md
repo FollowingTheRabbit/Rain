@@ -18,7 +18,7 @@ The models are saved in pickle format to be used in the deployment in the direct
 - Rain_Reg.pkl* the regression model predicts rainfall values.
 - Both models create the class *Rain.pkl* which is the model used as *calibrator*.
 
-The implemented model can be found at https://nnivqptu4cphbiiubulut7.streamlit.app/. The model can be used by giving it an input such as *data/FieldPRO/Sensor_FieldPRO.csv*.
+The implemented model can be found at https://nnivqptu4cphbiiubulut7.streamlit.app/. The model can be used by giving it an input such as *./data/FieldPRO/Sensor_FieldPRO.csv*.
 
 ![alt text](https://github.com/FollowingTheRabbit/rain/blob/main/img/data_input.PNG)
 
